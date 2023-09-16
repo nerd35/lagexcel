@@ -3,8 +3,10 @@ import OurSection from '../components/our-section'
 import Header from '../components/header'
 import Hero from '../components/Hero'
 import HomeAboutSection from '../components/home-about-section'
-import WhyChooseUs from '../components/why-choose-us'
 import Learning from '../components/learning'
+import OurServices from '../components/ourservices'
+import Discover from '../components/discover'
+import Newletter from '../components/newletter'
 
 interface Props {
     
@@ -15,10 +17,13 @@ const HomePage = (props: Props) => {
         <div>
            <Header/>
            <Hero/>
+           <OurServices/>
            <Learning/>
            <HomeAboutSection/>
            <OurSection/>
-           <WhyChooseUs/>
+           <Discover/>
+           {/* <WhyChooseUs/> */}
+           <Newletter/>
         </div>
     )
 }

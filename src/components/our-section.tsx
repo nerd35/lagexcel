@@ -14,7 +14,7 @@ const OurSection = (props: Props) => {
     return (
         <div className='p-5' style={{background: "#f9f8fe"}}>
             <Row className='mb-2 text-center justify-content-center'>
-                            <Col md={4} className='d-flex align-items-center text-center gap-3'>
+                            <Col md={4}  className='d-flex align-items-center text-center gap-3'>
                                 <AiOutlineSafety color='#0398fc' size="24px" />
                                 <div className='home_abt_option'>Safety Travel System</div>
                             </Col>

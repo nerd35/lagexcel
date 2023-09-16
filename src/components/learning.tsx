@@ -8,7 +8,7 @@ interface Props {
 
 const Learning = (props: Props) => {
     return (
-        <div className='p-5 mt-3 ' style={{ background: '#0398fc' }}>
+        <div className='p-5 mt-3 learn_background' >
             <Row className='justify-content-center'>
                 <Col md={5} className='mt-5'>
                     <h1 className="learn_text">LAGEXCELGLOBAL partnering with APPLYBOARD</h1>

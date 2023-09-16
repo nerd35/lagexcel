@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import WHYIMG from '../assets/why-image-1.svg'
+import WHYIMG from '../assets/home-two-des-2.png'
 import {BsGlobeAmericas} from 'react-icons/bs'
 import { GiMoneyStack, GiTeamIdea } from 'react-icons/gi'
 import {MdPlace, MdLuggage} from 'react-icons/md'

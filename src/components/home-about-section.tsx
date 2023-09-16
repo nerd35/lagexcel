@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import AboutImg from '../assets/banner1.png'
+import AboutImg from '../assets/about_two.png'
 
 interface Props {
 
