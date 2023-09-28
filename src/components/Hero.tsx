@@ -55,8 +55,7 @@ const Hero = (props: Props) => {
               <p className='hero_small_title1 mb-0 '>{item.captionSubTitle}</p>
               <p className='hero_text mb-0 ' style={{marginTop: "-60px !important"}}>{item.captionText}</p>
               <div className='mt-3 gap-3'>
-                  <Link to="/" className="btn btn-hero px-3 me-3 py-2">Discover an agent</Link>
-                  <Link to="/" className="btn btn-hero1 px-3 py-2">Know more</Link>
+                  <Link to="/" className="btn btn-hero  px-3 me-3 py-2">Discover</Link>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
